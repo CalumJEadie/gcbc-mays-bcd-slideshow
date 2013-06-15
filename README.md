@@ -52,6 +52,10 @@ Path: gcbc-mays-bcd-slideshow/email
 
 
 
+
+Use Photograbber, http://photograbber.org/download.html, to download any missing Facebook photos.
+
+
 Share folder so people can preview
 
 https://www.dropbox.com/sh/5nf3znzen657rpw/g12O88rDoV
