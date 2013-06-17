@@ -29,27 +29,31 @@ IFTTT was used to collect the tagged and emailed photos into a Dropbox folder. [
 
 1. Create an IFTTT recipe to add photos to a Dropbox folder when they are tagged on Facebook.
 
-    Trigger channel: Facebook
-    Trigger: You are tagged in a photo
+```
+Trigger channel: Facebook
+Trigger: You are tagged in a photo
     
-    Action channel: Dropbox
-    Action: Add file from URL
+Action channel: Dropbox
+Action: Add file from URL
     
-    URL: {{ImageSource}}
-    Name: {{Caption}}
-    Path: gcbc-mays-bcd-slideshow/facebook
+URL: {{ImageSource}}
+Name: {{Caption}}
+Path: gcbc-mays-bcd-slideshow/facebook
+```
 
 2. Create an IFTTT recipe to add photos to a Dropbox folder when they are attached to an email sent to a Google account.
 
-    Trigger channel: Gmail
-    Trigger: Any new attachment
+```
+Trigger channel: Gmail
+Trigger: Any new attachment
     
-    Action channel: Dropbox
-    Action: Add file from URL
+Action channel: Dropbox
+Action: Add file from URL
     
-    URL: {{AttachmentPrivateURL}}
-    Name: {{AttachmentFilename}}
-    Path: gcbc-mays-bcd-slideshow/email
+URL: {{AttachmentPrivateURL}}
+Name: {{AttachmentFilename}}
+Path: gcbc-mays-bcd-slideshow/email
+```
     
 3. Share Dropbox folder so people can preview the slideshow.
 
